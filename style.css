@@ -7,17 +7,17 @@
 }
 
 ::selection{
-  background: #f00;
+  background: #028a0f;
   color: #fff;
 }
 
 ::-moz-selection{
-  background: #f00;
+  background: #028a0f;
   color: #fff;
 }
 
 ::-webkit-selection{
-  background: #f00;
+  background: #028a0f;
   color: #fff;
 }
 
@@ -30,12 +30,12 @@
 }
 
 ::-webkit-scrollbar-thumb{
-  background-color: #c00;
+  background-color: #028a0f;
   background-clip: content-box;
 }
 
 ::-webkit-scrollbar-thumb:hover{
-  background-color: #f00;
+  background-color: #234f1e;
 }
 
 body {
@@ -55,7 +55,7 @@ body {
 }
 
 .icono-code {
-  color: #c00;
+  color: #028a0f;
   height: 250px;
   width: 250px;
   margin: 50px 0 0 0;
@@ -102,7 +102,7 @@ body {
 .icono-facebook:hover,
 .icono-x:hover,
 .icono-instagram:hover {
-  color: #c00;
+  color: #028a0f;
 }
 
 .seccion-footer {
@@ -129,7 +129,6 @@ body {
   }
 
   .icono-code {
-    color: #c00;
     height: 125px;
     width: 125px;
     margin: 100px 0 0 0;
@@ -159,7 +158,6 @@ body {
   }
 
   .icono-code {
-    color: #c00;
     height: 125px;
     width: 125px;
     margin: 100px 0 0 0;
@@ -198,7 +196,6 @@ body {
 
 @media (max-width: 480px) {
   .icono-code {
-    color: #c00;
     height: 125px;
     width: 125px;
     margin: 75px 0 0 0;
