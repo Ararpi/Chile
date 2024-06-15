@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+:root {
+  --main-color: #1f75fe;
+  --hover-color: #0047ab;
+  --background-main-color: #eee;
+  --font-size: 16px;
+}
+
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+::selection{
+  background: var(--main-color);
+  color: #fff;
+}
+
+::-moz-selection{
+  background: var(--main-color);
+  color: #fff;
+}
+
+::-webkit-selection{
+  background: var(--main-color);
+  color: #fff;
+}
+
+::-webkit-scrollbar{
+  width: 0.9375rem;
+}
+
+::-webkit-scrollbar-track{
+  background-color: #fff;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: var(--main-color);
+  background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background-color: var(--hover-color);
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: var(--background-main-color);
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.seccion-icono-code {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  width: auto;
+  margin: 0;
+  padding: 9.375rem 0.9375rem 0.9375rem 0.9375rem;
+}
+
+.icono-code {
+  color: #1f75fe;
+  height: 15.625rem;
+  width: 15.625rem;
+  margin: 0;
+  padding: 0;
+}
+
+.texto-primario {
+  color: #555;
+  font-size: 4.6875rem;
+  font-weight: 700;
+  text-align: center;
+  margin: 0;
+  padding: 0.9375rem;
+}
+
+.seccion-redes-sociales {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+  padding: 4.6875rem 0.9375rem;
+}
+
+.icono-facebook,
+.icono-x,
+.icono-instagram {
+  color: #1f75fe;
+  height: 1.875rem;
+  width: 1.875rem;
+  margin: 0.46875rem;
+  padding: 0;
+  transition: all .25s;
+}
+
+.icono-facebook:hover,
+.icono-x:hover,
+.icono-instagram:hover {
+  color: #0047ab;
+}
+
+.seccion-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 4.6875rem 0.9375rem 0.46875rem 0.9375rem;
+  bottom: 0;
+  text-align: center;
+}
+
+.texto-footer {
+  display: flex;
+  justify-content: center;
+  color: #555;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+@media (max-width: 1024px) {
+  .icono-code {
+    height: 15.625rem;
+    width: 15.625rem;
+  }
+  
+  .texto-primario {
+    font-size: 4.25rem;
+  }
+  
+}
+
+@media (max-width: 768px) {
+  .icono-code {
+    height: 12.5rem;
+    width: 12.5rem;
+  }
+  .texto-primario {
+    font-size: 3.125rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .icono-code {
+    height: 9.375rem;
+    width: 9.375rem;
+  }
+  .texto-primario {
+    font-size: 1.875rem;
+  }
+}
